@@ -1,0 +1,56 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.705
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Common", "Common", "{E3377D29-2DED-42CC-8EA8-9E981E26A5FB}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IntuitMarketing.Base", "IntuitMarketing.Logic\IntuitMarketing.Base.csproj", "{439F39B7-F50F-4C4E-A372-155EEA8D4338}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IntuitMarketing.Domain", "IntuitMarketing.Domain\IntuitMarketing.Domain.csproj", "{3232B788-AE55-4953-AC3E-E9AD020723E0}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IntuitMarketing.BusinessValidationService", "IntuitMarketing.BusinessValidationService\IntuitMarketing.BusinessValidationService.csproj", "{DED74DD6-5213-4069-AED4-83C2B05656D7}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IntuitMarketing.Dal", "IntuitMarketing.Dal\IntuitMarketing.Dal.csproj", "{5FC8CB2E-8676-434E-ACF1-12A7D9970BD7}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IntuitMarketing.Infrastructure", "IntuitMarketing.Infrastructure\IntuitMarketing.Infrastructure.csproj", "{45AD041D-D403-4631-87A4-F93247958D40}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{439F39B7-F50F-4C4E-A372-155EEA8D4338}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{439F39B7-F50F-4C4E-A372-155EEA8D4338}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{439F39B7-F50F-4C4E-A372-155EEA8D4338}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{439F39B7-F50F-4C4E-A372-155EEA8D4338}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3232B788-AE55-4953-AC3E-E9AD020723E0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3232B788-AE55-4953-AC3E-E9AD020723E0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3232B788-AE55-4953-AC3E-E9AD020723E0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3232B788-AE55-4953-AC3E-E9AD020723E0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DED74DD6-5213-4069-AED4-83C2B05656D7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DED74DD6-5213-4069-AED4-83C2B05656D7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DED74DD6-5213-4069-AED4-83C2B05656D7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DED74DD6-5213-4069-AED4-83C2B05656D7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5FC8CB2E-8676-434E-ACF1-12A7D9970BD7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5FC8CB2E-8676-434E-ACF1-12A7D9970BD7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5FC8CB2E-8676-434E-ACF1-12A7D9970BD7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5FC8CB2E-8676-434E-ACF1-12A7D9970BD7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{45AD041D-D403-4631-87A4-F93247958D40}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{45AD041D-D403-4631-87A4-F93247958D40}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{45AD041D-D403-4631-87A4-F93247958D40}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{45AD041D-D403-4631-87A4-F93247958D40}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{439F39B7-F50F-4C4E-A372-155EEA8D4338} = {E3377D29-2DED-42CC-8EA8-9E981E26A5FB}
+		{3232B788-AE55-4953-AC3E-E9AD020723E0} = {E3377D29-2DED-42CC-8EA8-9E981E26A5FB}
+		{5FC8CB2E-8676-434E-ACF1-12A7D9970BD7} = {E3377D29-2DED-42CC-8EA8-9E981E26A5FB}
+		{45AD041D-D403-4631-87A4-F93247958D40} = {E3377D29-2DED-42CC-8EA8-9E981E26A5FB}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {63C4F690-18AC-44CB-B78B-224CDE720DB3}
+	EndGlobalSection
+EndGlobal
